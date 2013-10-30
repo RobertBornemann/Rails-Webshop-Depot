@@ -12,7 +12,7 @@
 	<body class="<%= controller.controller_name %>">
 		<div id="banner">
 			<%= image_tag("http://intertwingly.net/projects/AWDwR3/data/images/logo.png?1324774743") %>
-			<%= @page_title || "Pragmatic Bookshelf" %><%= Time.now %>
+			<center><%= @page_title || "Pragmatic Bookshelf" %></br><%= Time.now.asctime %></center>
 		</div>
 		<div id="columns">
 		<div id="side"> 

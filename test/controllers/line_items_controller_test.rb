@@ -20,6 +20,8 @@ class LineItemsControllerTest < ActionController::TestCase
     assert_difference('LineItem.count') do
       post :create, line_item: { cart_id: @line_item.cart_id, product_id: @line_item.product_id }
     end
+    assert_redirected_to cart_path(assigns(:line_item).cart)
+  end
 
     assert_redirected_to line_item_path(assigns(:line_item))
   end
@@ -46,4 +48,5 @@ class LineItemsControllerTest < ActionController::TestCase
 
     assert_redirected_to line_items_path
   end
+
 end

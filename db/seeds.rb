@@ -14,7 +14,7 @@ Product.create(title: 'Effective Programming: More Than Writing Code',
     %{<p>
         Jeff Atwood began the Coding Horror blog in 2004, and is convinced that it changed his life. He needed a way to keep track of software development over time - whatever he was thinking about or working on. He researched subjects he found interesting, then documented his research with a public blog post, which he could easily find and refer to later. Over time, increasing numbers of blog visitors found the posts helpful, relevant and interesting. Now, approximately 100,000 readers visit the blog per day and nearly as many comment and interact on the site
       </p>},
-  image_url: 'http://ecx.images-amazon.com/images/I/51RB0YekufL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA278_PIkin4,BottomRight,-53,22_AA300_SH20_OU03_.jpg',
+  image_url: 'http://ecx.images-amazon.com/images/I/51ysOldcmqL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg',
   price: 9.95)
 
 Product.create(title: 'Programming Windows 8 Apps with HTML, CSS, and JavaScript',
