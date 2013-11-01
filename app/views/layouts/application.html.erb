@@ -20,10 +20,10 @@
 		  <%= render @cart %>
 		</div>
 			<ul>
-				<li><button type="button" class="btn_index" href="http://0.0.0.0:3000">Home</li></button>
-				<li><button type="button" class="btn_index" href="http://0.0.0.0:3000">Questions</li></button>
-				<li><button type="button" class="btn_index" href="http://0.0.0.0:3000">News</li></button>
-				<li><button type="button" class="btn_index" href="http://0.0.0.0:3000">Contact</li></button>
+				<li><button type="button" class="btn_index"><%= link_to 'Home', store_url %> </li></button>
+				<li><button type="button" class="btn_index"><%= link_to 'Questions', store_url %></li></button>
+				<li><button type="button" class="btn_index"><%= link_to 'News', store_url %></li></button>
+				<li><button type="button" class="btn_index"><%= link_to 'Contact', store_url %></li></button>
 			</ul>
 		</div>
 		<div id="main">

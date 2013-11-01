@@ -25,7 +25,7 @@ class ProductsController < ApplicationController
   # POST /products.json
   def create
     
-    @product = Product.new(params[:product])
+    @product = Product.new(product_params)
     puts params.inspect
     respond_to do |format|
       if @product.save
