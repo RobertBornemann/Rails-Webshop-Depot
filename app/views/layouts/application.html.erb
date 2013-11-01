@@ -12,7 +12,7 @@
 	<body class="<%= controller.controller_name %>">
 		<div id="banner">
 			<%= image_tag("http://intertwingly.net/projects/AWDwR3/data/images/logo.png?1324774743") %>
-			<center><%= @page_title || "Rob's online Programming Book Store" %></br><%= Time.now.asctime %></center>
+			<center><%= @page_title || "Rob's online Programming Book Store" %></center>
 		</div>
 		<div id="columns">
 		<div id="side"> 
@@ -20,9 +20,10 @@
 		  <%= render @cart %>
 		</div>
 			<ul>
-				<li><a href="http://0.0.0.0:3000">Home</a></li>
-				<li><a href="http://www..../faq">Questions</a></li> <li><a href="http://www..../news">News</a></li>
-				<li><a href="http://www..../contact">Contact</a></li> 
+				<li><button type="button" class="btn_index" href="http://0.0.0.0:3000">Home</li></button>
+				<li><button type="button" class="btn_index" href="http://0.0.0.0:3000">Questions</li></button>
+				<li><button type="button" class="btn_index" href="http://0.0.0.0:3000">News</li></button>
+				<li><button type="button" class="btn_index" href="http://0.0.0.0:3000">Contact</li></button>
 			</ul>
 		</div>
 		<div id="main">

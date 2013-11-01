@@ -12,6 +12,52 @@
  *= require_tree .
  */
 
+
+.btn_index {
+	-moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #595), color-stop(1, #595) );
+	background:-moz-linear-gradient( center top, #607827 5%, #455c11 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#607827', endColorstr='#455c11');
+	background-color:#9c9;
+	-webkit-border-top-left-radius:2px dotted;
+	-moz-border-radius-topleft:0px;
+	border-color: white;
+	border-top-left-radius:0px ;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:-1px;
+	display:inline-block;
+	color:#ffffff;
+	font: small-caps "Times New Roman", serif;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	height:31px;
+	line-height:31px;
+	width:250px;
+	text-decoration:none;
+	text-align:center;
+}
+.btn_index:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #141), color-stop(1, #141) );
+	background:-moz-linear-gradient( center top, #141 5%, #141 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#455c11', endColorstr='#607827');
+	background-color:#455c11;
+}.btn_index:active {
+	position:relative;
+	top:1px;
+}
+
+
  #banner {
  	background: #9c9;
 	padding: 10px;
@@ -39,7 +85,7 @@
 	background: #141;
 
 		#main {
-			margin-left: 17em;
+			margin-left: 23em;
 			padding: 1em;
 			background: white;
 		}
@@ -49,8 +95,30 @@
 
 		float: left;
 		padding: 1em 2em;
-		width: 13em;
+		width: 19em;
 		background: #141;
+
+		form, div {
+
+			display: inline;
+		}
+
+		input {
+			font-size: small;
+
+		}
+
+		#cart {
+
+			font-size: smaller;
+			color: white;
+
+			table {
+				border-top: 1px dotted #595;
+				border-bottom: 1px dotted #595;
+				margin-bottom: bottom;
+			}
+		}
 
 		ul {
 
