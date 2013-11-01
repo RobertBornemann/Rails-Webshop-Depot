@@ -57,6 +57,14 @@
 	top:1px;
 }
 
+#prebanner {
+ 	background: #141;
+	padding: 10px;
+	border-bottom: 2px solid;
+	font: small-caps 40px/40px "Times New Roman", serif;
+	color: #141;
+	text-align: center;
+}
 
  #banner {
  	background: #9c9;
@@ -66,8 +74,14 @@
 	color: #282;
 	text-align: center;
 
-		img {
+		img{
+			position: absolute;
+			left: 70px;
+			top: 22px;
 			float: left;
+			height: 80px;
+			width: 180px;
+			
 		}
 	}
 
