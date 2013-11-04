@@ -1,4 +1,4 @@
-<%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %> 
+
 	
 	<div class="cart_title">Your Cart</div>
 		<table>
@@ -10,4 +10,4 @@
 	  </table>
 	</br>
 <%= button_to 'Empty cart', cart, method: :delete, data: { confirm: 'Are you sure?' } %>
-<% end %>
+
