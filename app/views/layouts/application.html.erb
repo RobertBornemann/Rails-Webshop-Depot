@@ -10,54 +10,52 @@
 		</head>
 
 	<body class="<%= controller.controller_name %>">
-		<!--<div id="prebanner"></div>-->
+
+<!--<div id="prebanner"></div>-->
 
 <!-- Layerslider Begin -->
 
     <div class="hidden-xs">
         <div id="layerslider" style="width: 100%; height: 205px; margin: 0px auto; ">
             <div class="ls-layer" style="transition2d:5;">
-                <img class="ls-bg" src="http://hdwallpc.com/wp-content/uploads/2013/10/Green-Wallpaper-Picture-Computers.png">
+                <img class="ls-bg" src="/img/slides/bg-four.jpg">
 
-               <!--<img class="ls-s-1" src="img/slides/vinyl.png" alt="iMac" 
-                      style="top:15px; left:650px; durationin : 1250; durationout : 1250;">-->
+               <img class="ls-s-1" src="/img/slide_imgs/vinyl.png" alt="iMac" height="139px" width="280px"
+                      style="top:40px; left:1000px; durationin : 1250; durationout : 1250;">
 
                 <div class="ls-s-1 large-caption" 
-                     style="top:120px; left:20px; delayin : 750; slidedirection : fade; slideoutdirection : fade;">
-                    <div><p></p></div>
-                    <div><p></p></div>
-                    <div></p></div>
+                     style="top:50px; left:20px; delayin : 750; slidedirection : fade; slideoutdirection : fade;">
+                    <div><p><%= @page_title || "Rob's online" %></p></div>
+                    <div><p>Programming Book Store</p></div>
                 </div>
             </div>
 
             <div class="ls-layer" style="transition2d:5;">
-                <img class="ls-bg" src="http://images7.alphacoders.com/324/324340.jpg" alt="Slider Background">
+                <img class="ls-bg" src="/img/slides/bg-one.jpg" alt="Slider Background">
 
                 <!--<img  class="ls-s-1" src="img/slides/vinyl.png" alt="iMac" 
                       style="top:50px; left:50px; durationin : 1250; durationout : 1250; delayin : 0;">-->
 
 
                 <div class="ls-s-1 large-caption" 
-                     style="top:130px; left:700px; delayin : 700; slidedirection : fade; slideoutdirection : fade;">
-                    <div><p></p></div>
-                    <div><p></p></div>
-                    <div><p></p></div>
+                     style="top:50px; left:700px; delayin : 700; slidedirection : fade; slideoutdirection : fade;">
+                    <div><p>How about you!!</p></div>
+                    <div><p>Bying all kinds of books you dont need?</p></div>
+
                 </div>
 
             </div>   
 
              <div class="ls-layer" style="transition2d:5;">
-                <img class="ls-bg" src="http://hdwallpc.com/wp-content/uploads/2013/10/Abstract-Yellow-Wallpapers.jpg" alt="Slider Background">
+                <img class="ls-bg" src="/img/slides/bg-five.jpg" alt="Slider Background">
 
                 <!--<img  class="ls-s-1" src="img/slides/vinyl.png" alt="MB Air" 
                       style="top:25px; left:50px; durationin : 1250; durationout : 1250;">-->
 
                 <div class="ls-s-1 large-caption" 
-                     style="top:150px; left:750px; delayin : 750; slidedirection : fade; slideoutdirection : fade;">
-                    <div><p></p></div>
-                    <div><p></p>
-                        <p></p>
-                    </div>
+                     style="top:50px; left:750px; delayin : 750; slidedirection : fade; slideoutdirection : fade;">
+                    <div><p>And as a consequence</p></div>
+                    <div><p>I make a shit load of money</p></div>
                 </div>
             </div>
         </div>
@@ -65,9 +63,7 @@
 
 <!- Layer Slider End -->
 
-		<div id="banner">
-			<center><%= @page_title || "Rob's online Programming Book Store" %></center>
-		</div>
+		<div id="banner"></div>
 		<div id="columns">
 		<div id="side"> 
 		<div id="cart">
