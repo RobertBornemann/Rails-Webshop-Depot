@@ -10,9 +10,62 @@
 		</head>
 
 	<body class="<%= controller.controller_name %>">
-		<div id="prebanner"></div>
+		<!--<div id="prebanner"></div>-->
+
+<!-- Layerslider Begin -->
+
+    <div class="hidden-xs">
+        <div id="layerslider" style="width: 100%; height: 205px; margin: 0px auto; ">
+            <div class="ls-layer" style="transition2d:5;">
+                <img class="ls-bg" src="http://hdwallpc.com/wp-content/uploads/2013/10/Green-Wallpaper-Picture-Computers.png">
+
+               <!--<img class="ls-s-1" src="img/slides/vinyl.png" alt="iMac" 
+                      style="top:15px; left:650px; durationin : 1250; durationout : 1250;">-->
+
+                <div class="ls-s-1 large-caption" 
+                     style="top:120px; left:20px; delayin : 750; slidedirection : fade; slideoutdirection : fade;">
+                    <div><p></p></div>
+                    <div><p></p></div>
+                    <div></p></div>
+                </div>
+            </div>
+
+            <div class="ls-layer" style="transition2d:5;">
+                <img class="ls-bg" src="http://images7.alphacoders.com/324/324340.jpg" alt="Slider Background">
+
+                <!--<img  class="ls-s-1" src="img/slides/vinyl.png" alt="iMac" 
+                      style="top:50px; left:50px; durationin : 1250; durationout : 1250; delayin : 0;">-->
+
+
+                <div class="ls-s-1 large-caption" 
+                     style="top:130px; left:700px; delayin : 700; slidedirection : fade; slideoutdirection : fade;">
+                    <div><p></p></div>
+                    <div><p></p></div>
+                    <div><p></p></div>
+                </div>
+
+            </div>   
+
+             <div class="ls-layer" style="transition2d:5;">
+                <img class="ls-bg" src="http://hdwallpc.com/wp-content/uploads/2013/10/Abstract-Yellow-Wallpapers.jpg" alt="Slider Background">
+
+                <!--<img  class="ls-s-1" src="img/slides/vinyl.png" alt="MB Air" 
+                      style="top:25px; left:50px; durationin : 1250; durationout : 1250;">-->
+
+                <div class="ls-s-1 large-caption" 
+                     style="top:150px; left:750px; delayin : 750; slidedirection : fade; slideoutdirection : fade;">
+                    <div><p></p></div>
+                    <div><p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!- Layer Slider End -->
+
 		<div id="banner">
-			<div id="banner_pic"><%= image_tag("http://img.ffffound.com/static-data/assets/6/fe5bc74970f4eed688959ec2248ef6593a86377e_m.png") %></div>
 			<center><%= @page_title || "Rob's online Programming Book Store" %></center>
 		</div>
 		<div id="columns">
