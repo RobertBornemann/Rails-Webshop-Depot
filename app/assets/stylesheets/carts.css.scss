@@ -6,16 +6,18 @@
 .carts, #side #cart 
 { 
 	color: #fff; 
+	font-family: verdana, arial, helvetica, sans-serif;
 	.item_price, .total_line 
 	{
 		text-align: left;
 		color: #fff; 
+		
 	}
 
 .total_line .total_cell 
 { 
 	font-weight: bold;
 	color: #fff; 
-	border-top: 1px solid #595;
+	border-top: 1px solid #fff;
 } 
 }
