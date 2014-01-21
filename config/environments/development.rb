@@ -22,6 +22,19 @@ Depot::Application.configure do
   # Raise an error on page load if there are pending migrations
   config.active_record.migration_error = :page_load
 
+  # Sending Emails
+
+  config.action_mailer.delivery_method = :smtp
+
+  config.action_mailer.smtp_settings = { address: "smtp.gmail.com",
+                                         port: 587,
+                                         domain: "domain.of.sender.net",
+                                         authentication: "plain",
+                                         user_name: "Robert Bornemann",
+                                         password: "Stendal0570",
+                                         enable_starttls_auto: true
+  }
+
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.

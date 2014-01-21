@@ -19,7 +19,7 @@
 
 $('document').ready(function(){
   //Calling the layer slider
-  $("#layerslider").layerSlider({
+  $("#layersliderxyz").layerSlider({
       autoStart               : true,
       responsive              : true,
       responsiveUnder         : 1170,
