@@ -3,13 +3,19 @@ require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
 
 class ActiveSupport::TestCase
-  ActiveRecord::Migration.check_pending!
+   ActiveRecord::Migration.check_pending!
+     fixtures :all
 
-  # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
-  #
-  # Note: You'll currently still have to declare fixtures explicitly in integration tests
-  # -- they do not yet inherit this setting
-  fixtures :all
+  def login_as(user)
+    session[:user_id] = users(user).id
+  end
 
-  # Add more helper methods to be used by all tests here...
+  def logout
+    session.delete :user_id
+  end
+
+  def setup
+    login_as :one if defined? session
+  end
 end
+
