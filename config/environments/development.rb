@@ -31,7 +31,7 @@ Depot::Application.configure do
                                          domain: "domain.of.sender.net",
                                          authentication: "plain",
                                          user_name: "Robert Bornemann",
-                                         password: "Stendal0570",
+                                         password: "password",
                                          enable_starttls_auto: true
   }
 

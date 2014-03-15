@@ -14,9 +14,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: Dave Thomas
-  address: MyText
-  email: dave@example.org
+  name: Robert Bornemann
+  address: FakeAddress
+  email: robert@example.org
   pay_type: Check
 
 two:
@@ -24,5 +24,7 @@ two:
   address: MyText
   email: MyString
   pay_type: MyString
+
+
 
 

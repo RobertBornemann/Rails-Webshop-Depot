@@ -20,7 +20,7 @@ class OrdersControllerTest < ActionController::TestCase
   test "should get new" do
     item = LineItem.new
     item.build_cart
-    item.product = products(:ruby)
+    item.product = products(:one)
     item.save!
     session[:cart_id] = item.cart.id
     get :new

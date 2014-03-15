@@ -4,7 +4,7 @@ class CartTest < ActiveSupport::TestCase
 
 	def setup
     @cart  = Cart.create
-    @book_one = products(:ruby)
+    @book_one = products(:one)
     @book_two  = products(:two)
   end
   
